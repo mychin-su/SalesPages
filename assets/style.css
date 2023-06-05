@@ -4,6 +4,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +29,10 @@ h4 {
 /* Comment */
 a {
     text-decoration: none;
+}
+
+a:active {
+    opacity: 0.9;
 }
 
 .label__desc {
@@ -714,6 +719,8 @@ svg {
 }
 
 .offer__cta {
+    position: relative;
+    z-index: 10;
     margin-top: 40px;
     padding: 8px 30px;
     font-size: 1.6rem;
@@ -723,6 +730,10 @@ svg {
     width: 145px;
     height: 42px;
     background: rgba(251, 143, 44, 0.8);
+}
+
+.offer__cta:active {
+    opacity: 0.9;
 }
 
 /* Service */

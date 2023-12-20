@@ -526,6 +526,10 @@ svg {
     width: 370px;
 }
 
+.visit__img:hover {
+    transform: scale(1, 1);
+}
+
 /* Book */
 .book {
     margin-top: 105px;

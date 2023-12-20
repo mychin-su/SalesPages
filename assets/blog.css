@@ -1,0 +1,248 @@
+.restaurant__heading {
+    padding-top: 28px;
+    margin-top: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    font-size: 6.6rem;
+    line-height: 1.16;
+    color: #ffffff;
+}
+
+.restaurant__media-inner {
+    margin-top: 28px;
+    padding: 50px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+}
+
+.restaurant__media-thumb {
+    width: 670px;
+}
+
+.restaurant__media-info {
+    margin-left: 30px;
+}
+
+.restaurant__title {
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.restaurant__row {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.restaurant__label {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #ffffff;
+}
+
+.restaurant__dot {
+    margin: 0 10px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.restaurant__desc {
+    width: 383px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.restaurant__more {
+    margin-top: 44px;
+}
+
+.restaurant__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 60px;
+}
+
+.restaurant__item {
+    padding-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.restaurant__img {
+    width: 570px;
+    height: 534px;
+    object-fit: cover;
+}
+
+.restaurant__item-title {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.restaurant__straight {
+    margin-top: 34px;
+    display: block;
+    width: 570px;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.2;
+}
+
+.restaurant__mor {
+    margin-top: 16px;
+}
+
+.restaurant__list-number {
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.restaurant__list-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant__previous-title {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #ffffff;
+}
+
+.restaurant__numbers {
+    display: flex;
+    align-items: center;
+}
+
+.restaurant__number {
+    margin-right: 30px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #ffffff;
+}
+
+.restaurant__number:hover {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #fb8f2c;
+}
+
+.restaurant__number:active {
+    opacity: 0.8;
+}
+
+.restaurant__number-active {
+    display: inline-block;
+
+    background: #fb8f2c;
+}
+
+.restaurant__previous {
+    cursor: pointer;
+}
+
+.restaurant__previous:active {
+    opacity: 0.8;
+}
+
+.subscribe__inner {
+    margin-top: 190px;
+    display: flex;
+}
+
+.subscribe__heading {
+    width: 640px;
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 1.16;
+    color: #ffffff;
+}
+
+.subscribe__desc {
+    margin-top: 10px;
+    width: 470px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sub__input {
+    margin-left: 0;
+    margin-top: 60px;
+}
+
+.subscribe__img1 {
+    width: 270px;
+    height: 274px;
+}
+
+.subscribe__img2 {
+    position: relative;
+    top: 40px;
+    left: -40px;
+    width: 227px;
+    height: 225px;
+}
+
+.subscribe__img3 {
+    left: 100px;
+    position: relative;
+    top: 11px;
+    width: 175px;
+    height: 172px;
+}
+
+.subscribe__list-item {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe__item {
+    margin-right: 120px;
+}
+
+.subscribe__number {
+    font-family: "Playball";
+    font-weight: 400;
+    font-size: 5.8rem;
+    line-height: 1.07;
+    color: #fb8f2c;
+}
+
+.subscribe__title {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.go__home {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.go-home {
+    color: #fff;
+}

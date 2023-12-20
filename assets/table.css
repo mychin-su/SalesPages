@@ -1,0 +1,114 @@
+.table-online {
+    margin-top: 80px;
+    width: 100%;
+    height: 617px;
+    background-image: url(../img/table-online.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.online__heading {
+    padding-top: 40px;
+    width: 563px;
+    font-weight: 500;
+    font-size: 6.4rem;
+    line-height: 1.16;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.online__desc {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.online__info {
+    margin-top: 60px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+
+.online__name {
+    padding: 0 25px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+
+.your__name {
+    margin-right: -20px;
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.online__table {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Address */
+
+.address__list-item {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 130px;
+}
+
+.address__title {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+}
+
+.address__info {
+    margin-top: 18px;
+}
+
+.address__desc {
+    margin-left: 10px;
+    display: inline-block;
+    padding-top: 12px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.address__email,
+.address__tel {
+    margin-left: 60px;
+}
+
+.address__more {
+    margin-left: 80px;
+    margin-top: 34px;
+    color: #fff;
+}
+
+.address__active {
+    color: #fb8f2c;
+}

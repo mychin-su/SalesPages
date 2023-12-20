@@ -257,6 +257,11 @@ a:active {
     text-align: center;
 }
 
+.fill-color {
+    fill: #828282;
+    cursor: pointer;
+}
+
 .popular__desc {
     margin-top: 20px;
     width: 600px;
@@ -270,8 +275,20 @@ a:active {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.popular__bg {
+    overflow: hidden;
+}
+
 .popular__thumb {
+    object-fit: cover;
     width: 370px;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.popular__thumb:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .popular-row1 {
@@ -396,6 +413,7 @@ svg {
 }
 
 .menu__list-order {
+    position: relative;
     padding-bottom: 30px;
     margin-top: 60px;
     display: flex;
@@ -405,36 +423,53 @@ svg {
 }
 
 .menu__order {
+    cursor: pointer;
     font-size: 3rem;
     line-height: 1.33;
     color: #ffffff;
 }
 
-.menu-active {
-    position: relative;
+.menu__order:active {
+    opacity: 0.8;
+}
+
+.menu__order:hover {
     color: #fb8f2c;
 }
 
-.menu-active::after {
+.menu__list-order .line {
     position: absolute;
-    bottom: 0;
+    top: 40px;
     left: 0;
-    display: inline-block;
-    content: "";
-    width: 100%;
-    height: 1px;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
     background-color: #fb8f2c;
+    transition: all 0.3s ease;
+}
+
+.menu__order.menu-active {
+    color: #fb8f2c;
 }
 
 .menu__list-order {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.menu__list-item {
+.tab-pane {
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 42px 30px;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.menu-active {
+    display: grid;
 }
 
 .menu__item {
@@ -536,6 +571,11 @@ svg {
     color: #111114;
 }
 
+.a123 {
+    width: 50px;
+    height: 50px;
+}
+
 .book__sets {
     margin-left: 3px;
 }
@@ -551,6 +591,7 @@ svg {
     margin-top: 10px;
     display: flex;
     align-items: center;
+    column-gap: 2px;
 }
 
 .book__decor {
@@ -566,7 +607,8 @@ svg {
 
 .book__decor2 {
     position: relative;
-    top: 2px;
+    top: 4px;
+    left: 8px;
 }
 
 .book__decor3 {

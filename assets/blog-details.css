@@ -1,0 +1,146 @@
+.blog-details {
+    margin-top: 100px;
+}
+
+.blog-details__heading {
+    width: 910px;
+    font-weight: 500;
+    font-size: 6.4rem;
+    line-height: 1.16;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.blog-details__desc {
+    width: 970px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.blog-details__img {
+    margin-top: 70px;
+    position: relative;
+}
+
+.blog-details__icon {
+    position: absolute;
+    top: -52px;
+    right: -52px;
+}
+
+.blog-details__thumb {
+    object-fit: cover;
+    width: 1170px;
+    height: 556px;
+}
+
+.blog-details__row {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-details__socials {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.role__heading1,
+.role__heading2 {
+    width: 770px;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 1.25;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.role__desc1,
+.role__desc2 {
+    margin-top: 20px;
+    width: 745px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.role__img {
+    width: 770px;
+    margin-top: 60px;
+}
+
+.role__desc3 {
+    padding-left: 20px;
+    margin-top: 70px;
+    width: 750px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.8);
+    border-left: 2px solid #ffffff;
+}
+
+.role__heading2 {
+    margin-top: 70px;
+}
+
+.role__list-description {
+    padding-left: 12px;
+    position: relative;
+    width: 770px;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #ffffff;
+}
+
+.role__list-description::before {
+    position: absolute;
+    top: 10px;
+    left: -1px;
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.role__list-description3 {
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.restaurant__item {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.blog__inner {
+    padding-top: 40px;
+    display: flex;
+    column-gap: 60px;
+}
+
+.blog-details__label {
+    display: inline-block;
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.btn-more {
+    color: #fff;
+}
